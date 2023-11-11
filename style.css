@@ -1,0 +1,639 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(210, 195, 181);
+}
+
+img{
+    border-radius: 40px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: rgb(25, 40, 4);
+}
+
+.nav a{
+    color: rgb(210, 195, 181);
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: rgb(254, 253, 253);
+}
+
+#oPorodici{
+    background-image: url(img/monstera_wallpaper.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    color: rgb(210, 195, 181);
+    padding: 250px 50px;
+}
+
+#oPorodici h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#oPorodici p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+#vrste{
+    background-color: rgb(210, 195, 181);
+    padding-bottom: 30px;
+}
+
+#vrste .naslov{
+    padding-top: 40px;
+    color: rgb(25, 40, 4);
+    text-align: center;
+}
+
+#vrste .naslov h2{
+    font-size: 30px;
+}
+
+#vrste .naslov p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+#vrste .naslov h3{
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+#vrste .deliciosaBorsigiana{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0 40px;
+}
+
+#vrste .deliciosaBorsigiana h3{
+    font-size: 20px;
+    color: rgb(25, 40, 4);
+    text-align: center;
+}
+
+#vrste .deliciosaBorsigiana article{
+    width: 48%;
+    padding: 20px;
+    background-color: rgb(25, 40, 4);
+    text-align: center;
+    font-size: 17px;
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .deliciosaBorsigiana article p{
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+#vrste .razlike{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .razlike h4{
+    font-size: 20px;
+}
+
+#vrste .razlike p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .adansonii{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .adansonii h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .adansonii p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .minima{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .minima h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .minima p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .obliqua{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .obliqua h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .obliqua p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .dubia{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .dubia h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .dubia p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .subpinnata{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .subpinnata h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .subpinnata p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#vrste .variegata{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(25, 40, 4);
+    color: rgb(210, 195, 181);
+    border-radius: 40px;
+}
+
+#vrste .variegata h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#vrste .variegata p{
+    text-align: justify;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+#nega{
+    background-color: rgb(25, 40, 4);
+    padding-bottom: 30px;  
+}
+
+#nega div{
+    padding-top: 40px;
+    color: rgb(210, 195, 181);
+    text-align: center;
+}
+
+#nega div h2{
+    font-size: 30px;
+}
+
+#nega div p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#nega div ol{
+    font-size: 17px;
+}
+
+#nega .zemljisteTemperatura{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 40px;
+}
+
+#nega .zemljisteTemperatura h3{
+    font-size: 25px;
+    color: rgb(25, 40, 4);
+    text-align: center;
+}
+
+#nega .zemljisteTemperatura article{
+    width: 48%;
+    padding: 20px;
+    background-color: rgb(210, 195, 181);
+    text-align: center;
+    color: rgb(25, 40, 4);
+    border-radius: 40px;
+}
+
+#nega .zemljisteTemperatura article p{
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+#nega .zemljisteTemperatura article ul{
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#nega .zemljisteTemperatura article img{
+    padding-top: 10px;
+}
+
+#nega .svetlostZalivanje{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 40px;
+}
+
+#nega .svetlostZalivanje h3{
+    font-size: 25px;
+    color: rgb(25, 40, 4);
+    text-align: center;
+}
+
+#nega .svetlostZalivanje article{
+    width: 48%;
+    padding: 20px;
+    background-color: rgb(210, 195, 181);
+    text-align: center;
+    color: rgb(25, 40, 4);
+    border-radius: 40px;
+}
+
+#nega .svetlostZalivanje article p{
+    text-align: justify;
+    font-weight: bold;
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+#nega .svetlostZalivanje article ul{
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#nega .svetlostZalivanje article img{
+    padding-top: 20px;
+}
+
+#nega .svetlostZalivanje article .sunburn{
+    padding-top: 35px;
+}
+
+#nega .prihrana{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(210, 195, 181);
+    color: rgb(25, 40, 4);
+    border-radius: 40px;
+}
+
+#nega .prihrana h3{
+    font-size: 25px;
+}
+
+#nega .prihrana p{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+#nega .prihrana ul{
+    text-align: justify;
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 15px;
+}
+
+#nega .prihrana img{
+    padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(210, 195, 181);
+    padding: 20px;
+    color: rgb(25, 40, 4);
+}
+
+footer h3{
+    font-size: 25px;
+}
+
+footer a{
+    color: rgb(25, 40, 4);
+}
+
+footer a i{
+    margin: 25px 20px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 576px){
+    .nav a{
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+    #oPorodici{
+        padding: 10px;
+    }
+    #vrste .deliciosaBorsigiana{
+        flex-direction: column;
+    }
+    #vrste .deliciosaBorsigiana article{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #vrste .razlike{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    #vrste .razlike img{
+        width: 450px;
+    }
+    #vrste .adansonii{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .adansonii img{
+        width: 450px;
+    }
+    #vrste .minima{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .minima img{
+        width: 450px;
+    }
+    #vrste .obliqua{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .obliqua img{
+        width: 450px;
+    }
+    #vrste .dubia{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .dubia img{
+        width: 450px;
+    }
+    #vrste .subpinnata{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .subpinnata img{
+        width: 450px;
+    }
+    #vrste .variegata{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .variegata img{
+        width: 450px;
+    }
+    #nega p:first-of-type{
+        padding: 10px 20px;
+    }
+    #nega .zemljisteTemperatura{
+        flex-direction: column;
+    }
+    #nega .zemljisteTemperatura article{
+        width: 100%;
+    }
+    #nega .zemljisteTemperatura article:first-of-type{
+        margin-bottom: 30px;
+    }
+    #nega .zemljisteTemperatura article:last-of-type img{
+        width: 450px;
+    }
+    #nega .svetlostZalivanje{
+        flex-direction: column;
+    }
+    #nega .svetlostZalivanje article{
+        width: 100%;
+    }
+    #nega .svetlostZalivanje article:first-of-type{
+        margin-bottom: 30px;
+    }
+    #nega .prihrana{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 786px){
+    #oPorodici{
+        padding: 100px;
+    }
+    #vrste .deliciosaBorsigiana{
+        flex-direction: column;
+    }
+    #vrste .deliciosaBorsigiana article{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #vrste .razlike{
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    #vrste .razlike img{
+        width: 450px;
+    }
+    #vrste .adansonii{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .adansonii img{
+        width: 450px;
+    }
+    #vrste .minima{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .minima img{
+        width: 450px;
+    }
+    #vrste .obliqua{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .obliqua img{
+        width: 450px;
+    }
+    #vrste .dubia{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .dubia img{
+        width: 450px;
+    }
+    #vrste .subpinnata{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .subpinnata img{
+        width: 450px;
+    }
+    #vrste .variegata{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #vrste .variegata img{
+        width: 450px;
+    }
+    #nega p:first-of-type{
+        padding: 10px 20px;
+    }
+    #nega .zemljisteTemperatura{
+        flex-direction: column;
+    }
+    #nega .zemljisteTemperatura article{
+        width: 100%;
+    }
+    #nega .zemljisteTemperatura article:first-of-type{
+        margin-bottom: 30px;
+    }
+    #nega .zemljisteTemperatura article:last-of-type img{
+        width: 450px;
+    }
+    #nega .svetlostZalivanje{
+        flex-direction: column;
+    }
+    #nega .svetlostZalivanje article{
+        width: 100%;
+    }
+    #nega .svetlostZalivanje article:first-of-type{
+        margin-bottom: 30px;
+    }
+    #nega .prihrana{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    #oPorodici{
+        padding: 150px;
+    }
+    #vrste .deliciosaBorsigiana img{
+        width: 350px;
+    }
+    #vrste .razlike img{
+        width: 450px;
+    }
+    #vrste .adansonii img{
+        width: 450px;
+    }
+    #vrste .minima img{
+        width: 450px;
+    }
+    #vrste .variegata img{
+        width: 450px;
+    }
+    #nega .zemljisteTemperatura img{
+        width: 400px;
+    }
+}
