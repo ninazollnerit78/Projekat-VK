@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+sitemap: https://github.com/ninazollnerit78/Projekat-VK/blob/main/sitemap.xml
